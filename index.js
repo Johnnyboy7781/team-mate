@@ -1,3 +1,6 @@
+const promptUser = require('./src/promptUser');
+
+promptUser();
 // Flow:
 // Start -> enter manager info
 // Then add teamembers: engineer or intern
