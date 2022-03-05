@@ -4,7 +4,7 @@ const Manager = require('../lib/Manager');
 const Engineer = require('../lib/Engineer');
 const Intern = require('../lib/Intern');
 const validate = require('./validation');
-const generateFiles = require('./generateFiles');
+const generateTeammemberElements = require('./generateFiles');
 
 const teammembers = [];
 
@@ -149,6 +149,8 @@ const promptAddTeammember = () => {
 
         if (answers.addNewMember) {
             promptAddTeammember();
+        } else {
+            generateTeammemberElements(teammembers);
         }
     })
 }
