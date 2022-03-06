@@ -6,7 +6,9 @@ Team Mate is a command line tool that will generate a website with your team's i
 ![Screenshot](./screenshot.PNG)
 
 # Demo
-https://www.youtube.com/watch?v=vn-FZreEpkg
+https://www.youtube.com/watch?v=vn-FZreEpkg  
+
+Check the dist folder for sample output!
 
 ## Built With
 * JavaScript
