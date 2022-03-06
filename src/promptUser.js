@@ -47,8 +47,6 @@ const generateTeammember = (type, answers) => {
     }
 
     teammembers.push(employee);
-
-    teammembers.forEach(member => console.log(member))
 }
 
 const promptAddTeammember = () => { 

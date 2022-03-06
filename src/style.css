@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #d6545a;
+    color: white;
+}
+
+/* Card view styles */
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.member-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member-card {
+    margin: 15px;
+    box-shadow: 3px 3px 5px rgb(0, 0, 0, 0.4);
+    min-width: 250px;
+}
+
+.member-card > * {
+    padding: 10px;
+}
+
+.member-card-top {
+    background-color: #3375ef;
+    color: white;
+}
+
+.member-card-bottom {
+    background-color: #f6f7f9;
+}
+
+.member-card-bottom-wrapper {
+    background-color: white;
+}
+
+p {
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+svg {
+    filter: invert(100%) sepia(0%) saturate(968%) hue-rotate(149deg) brightness(109%) contrast(101%);
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+}
+
+h3 > * {
+    padding-right: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 200ms;
+}
+
+a:hover {
+    color: rgb(57, 57, 255);
+}
